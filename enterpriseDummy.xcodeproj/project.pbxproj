@@ -65,7 +65,6 @@
 				E9EBF5C71F8E9A6200A39134 /* Info.plist */,
 				E9EBF5B61F8E9A6200A39134 /* Supporting Files */,
 			);
-			name = enterpriseDummy;
 			path = enterpriseDummy;
 			sourceTree = "<group>";
 		};
@@ -104,7 +103,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = akhil;
+				ORGANIZATIONNAME = browserstack;
 				TargetAttributes = {
 					E9EBF5B21F8E9A6200A39134 = {
 						CreatedOnToolsVersion = 8.3.3;
