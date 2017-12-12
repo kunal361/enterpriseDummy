@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CF2CF8D1FDF90460084E8CB /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF2CF8C1FDF90460084E8CB /* Util.m */; };
 		E9EBF5B81F8E9A6200A39134 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EBF5B71F8E9A6200A39134 /* main.m */; };
 		E9EBF5BB1F8E9A6200A39134 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EBF5BA1F8E9A6200A39134 /* AppDelegate.m */; };
 		E9EBF5BE1F8E9A6200A39134 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EBF5BD1F8E9A6200A39134 /* ViewController.m */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0CF2CF891FDF8FB00084E8CB /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		0CF2CF8C1FDF90460084E8CB /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
 		E9EBF5B31F8E9A6200A39134 /* enterpriseDummy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = enterpriseDummy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9EBF5B71F8E9A6200A39134 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E9EBF5B91F8E9A6200A39134 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -56,8 +59,10 @@
 		E9EBF5B51F8E9A6200A39134 /* enterpriseDummy */ = {
 			isa = PBXGroup;
 			children = (
+				0CF2CF891FDF8FB00084E8CB /* Util.h */,
 				E9EBF5B91F8E9A6200A39134 /* AppDelegate.h */,
 				E9EBF5BA1F8E9A6200A39134 /* AppDelegate.m */,
+				0CF2CF8C1FDF90460084E8CB /* Util.m */,
 				E9EBF5BC1F8E9A6200A39134 /* ViewController.h */,
 				E9EBF5BD1F8E9A6200A39134 /* ViewController.m */,
 				E9EBF5BF1F8E9A6200A39134 /* Main.storyboard */,
@@ -103,7 +108,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = browserstack;
+				ORGANIZATIONNAME = kunal;
 				TargetAttributes = {
 					E9EBF5B21F8E9A6200A39134 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -151,6 +156,7 @@
 				E9EBF5BE1F8E9A6200A39134 /* ViewController.m in Sources */,
 				E9EBF5BB1F8E9A6200A39134 /* AppDelegate.m in Sources */,
 				E9EBF5B81F8E9A6200A39134 /* main.m in Sources */,
+				0CF2CF8D1FDF90460084E8CB /* Util.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,11 +275,12 @@
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_OPTIMIZATION_LEVEL = s;
 				INFOPLIST_FILE = enterpriseDummy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.browserstack.enterpriseDummy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kunal.dummy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "96982e80-5520-4223-ae0f-81473c6d2515";
-				PROVISIONING_PROFILE_SPECIFIER = "enterprise staging";
+				PROVISIONING_PROFILE = "82f92d54-77ad-46da-8fb5-e9a01bb0ab28";
+				PROVISIONING_PROFILE_SPECIFIER = "Enterprise Staging";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -286,11 +293,12 @@
 				DEVELOPMENT_TEAM = 8XPT93F9Q7;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = enterpriseDummy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.browserstack.enterpriseDummy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kunal.dummy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "96982e80-5520-4223-ae0f-81473c6d2515";
-				PROVISIONING_PROFILE_SPECIFIER = "enterprise staging";
+				PROVISIONING_PROFILE = "82f92d54-77ad-46da-8fb5-e9a01bb0ab28";
+				PROVISIONING_PROFILE_SPECIFIER = "Enterprise Staging";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
