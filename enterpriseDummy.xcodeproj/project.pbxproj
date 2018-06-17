@@ -269,7 +269,7 @@
 		E9EBF5CB1F8E9A6200A39134 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 8XPT93F9Q7;
 				ENABLE_BITCODE = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
@@ -279,17 +279,17 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kunal.dummy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "82f92d54-77ad-46da-8fb5-e9a01bb0ab28";
-				PROVISIONING_PROFILE_SPECIFIER = "Enterprise Staging";
+				PROVISIONING_PROFILE = "2f3bab6b-0d83-4d0a-bd25-7c944502d511";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development *";
 				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		E9EBF5CC1F8E9A6200A39134 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 8XPT93F9Q7;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = enterpriseDummy/Info.plist;
@@ -297,10 +297,10 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kunal.dummy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "82f92d54-77ad-46da-8fb5-e9a01bb0ab28";
-				PROVISIONING_PROFILE_SPECIFIER = "Enterprise Staging";
+				PROVISIONING_PROFILE = "2f3bab6b-0d83-4d0a-bd25-7c944502d511";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development *";
 				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
